@@ -49,5 +49,6 @@
     	<module>spring-cloud-consumer-ribbon</module>
     	<module>spring-cloud-eureka-server</module>
     	<module>spring-cloud-consumer-feign</module>
+    <module>spring-cloud-eureka-server-hign</module>
   </modules>
 </project>
