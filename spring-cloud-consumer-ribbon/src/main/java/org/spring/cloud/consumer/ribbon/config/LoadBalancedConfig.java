@@ -1,4 +1,4 @@
-package org.spring.cloud.consumer.config;
+package org.spring.cloud.consumer.ribbon.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
@@ -8,6 +8,7 @@ import com.netflix.loadbalancer.RetryRule;
 import com.netflix.loadbalancer.RoundRobinRule;
 import com.netflix.loadbalancer.WeightedResponseTimeRule;
 
+@ExcludeFromComponentScan
 @Configuration
 public class LoadBalancedConfig {
 

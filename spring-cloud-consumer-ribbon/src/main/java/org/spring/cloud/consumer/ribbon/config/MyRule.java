@@ -1,4 +1,4 @@
-package org.spring.cloud.consumer.config;
+package org.spring.cloud.consumer.ribbon.config;
 
 import java.util.List;
 import com.netflix.client.config.IClientConfig;

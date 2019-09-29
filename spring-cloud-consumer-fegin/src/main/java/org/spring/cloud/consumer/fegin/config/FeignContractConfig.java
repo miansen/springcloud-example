@@ -1,10 +1,11 @@
-package org.spring.cloud.consumer.config;
+package org.spring.cloud.consumer.fegin.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;
 
 import feign.Contract;
 
+@ExcludeFromComponentScan
 @Configuration
 public class FeignContractConfig {
 

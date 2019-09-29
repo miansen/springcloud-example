@@ -1,6 +1,6 @@
 package org.spring.cloud.consumer.fegin.client;
 
-import org.spring.cloud.consumer.config.FeignContractConfig;
+import org.spring.cloud.consumer.fegin.config.FeignContractConfig;
 import org.springframework.cloud.openfeign.FeignClient;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;
