@@ -1,6 +1,6 @@
-package org.spring.cloud.consumer.fegin;
+package org.spring.cloud.consumer.feign.hystrix;
 
-import org.spring.cloud.consumer.fegin.config.ExcludeFromComponentScan;
+import org.spring.cloud.consumer.feign.hystrix.config.ExcludeFromComponentScan;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
@@ -15,9 +15,9 @@ import org.springframework.web.bind.annotation.RestController;
 @EnableEurekaClient
 @RestController
 @SpringBootApplication
-public class ConsumerFeignApplication {
+public class ConsumerFeignHystrixApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(ConsumerFeignApplication.class, args);
+		SpringApplication.run(ConsumerFeignHystrixApplication.class, args);
 	}
 }

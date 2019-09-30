@@ -1,6 +1,6 @@
-package org.spring.cloud.consumer.fegin.controller;
+package org.spring.cloud.consumer.feign.hystrix.controller;
 
-import org.spring.cloud.consumer.fegin.client.UserFeignClient;
+import org.spring.cloud.consumer.feign.hystrix.client.UserFeignClient;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.GetMapping;
 import org.springframework.web.bind.annotation.PathVariable;

@@ -1,4 +1,4 @@
-package org.spring.cloud.consumer.fegin.config;
+package org.spring.cloud.consumer.feign.config;
 
 import org.springframework.context.annotation.Bean;
 import org.springframework.context.annotation.Configuration;

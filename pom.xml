@@ -51,5 +51,7 @@
     	<module>spring-cloud-consumer-feign</module>
     <module>spring-cloud-eureka-server-hign</module>
     <module>spring-cloud-provider-hign</module>
+    <module>spring-cloud-consumer-ribbon-hystrix</module>
+    <module>spring-cloud-consumer-feign-hystrix</module>
   </modules>
 </project>

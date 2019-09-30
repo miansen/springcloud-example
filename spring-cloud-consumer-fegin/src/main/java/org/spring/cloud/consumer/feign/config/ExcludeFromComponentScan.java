@@ -1,4 +1,4 @@
-package org.spring.cloud.consumer.fegin.config;
+package org.spring.cloud.consumer.feign.config;
 
 import java.lang.annotation.Documented;
 import java.lang.annotation.ElementType;
