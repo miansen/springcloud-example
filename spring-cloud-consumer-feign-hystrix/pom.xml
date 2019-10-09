@@ -31,5 +31,10 @@
 		<groupId>org.springframework.cloud</groupId>
 		<artifactId>spring-cloud-starter-openfeign</artifactId>
 	</dependency>
+	<!-- 因为需要监控功能，所以引入 Hystrix 依赖-->
+ 	<dependency>
+      	<groupId>org.springframework.cloud</groupId>
+        <artifactId>spring-cloud-starter-netflix-hystrix</artifactId>
+    </dependency>
   </dependencies>
 </project>

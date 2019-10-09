@@ -53,5 +53,6 @@
     <module>spring-cloud-provider-hign</module>
     <module>spring-cloud-consumer-ribbon-hystrix</module>
     <module>spring-cloud-consumer-feign-hystrix</module>
+    <module>spring-cloud-hystrix-dashboard</module>
   </modules>
 </project>
