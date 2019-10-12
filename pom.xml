@@ -54,5 +54,6 @@
     <module>spring-cloud-consumer-ribbon-hystrix</module>
     <module>spring-cloud-consumer-feign-hystrix</module>
     <module>spring-cloud-hystrix-dashboard</module>
+    <module>spring-cloud-zuul-server</module>
   </modules>
 </project>
