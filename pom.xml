@@ -55,5 +55,6 @@
     <module>spring-cloud-consumer-feign-hystrix</module>
     <module>spring-cloud-hystrix-dashboard</module>
     <module>spring-cloud-zuul-server</module>
+    <module>spring-cloud-config-server</module>
   </modules>
 </project>

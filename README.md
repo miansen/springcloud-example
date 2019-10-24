@@ -10,4 +10,6 @@
 
 [五、SpringCloud-服务容错 Hystrix（断路器）](https://miansen.wang/2019/09/30/spring-cloud-hystrix)
 
-[六、SpringCloud-路由器和过滤器 Zuul）](https://miansen.wang/2019/10/12/spring-cloud-zuul)
+[六、SpringCloud-路由器和过滤器 Zuul](https://miansen.wang/2019/10/12/spring-cloud-zuul)
+
+[七、SpringCloud-服务配置中心 Spring-Cloud-Config](https://miansen.wang/2019/10/22/spring-cloud-config)
