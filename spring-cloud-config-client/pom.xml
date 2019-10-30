@@ -7,15 +7,12 @@
     <artifactId>spring-cloud-pom</artifactId>
     <version>0.0.1-SNAPSHOT</version>
   </parent>
-  
-  <artifactId>spring-cloud-config-server</artifactId>
-  <name>spring-cloud-config-server</name>
+  <artifactId>spring-cloud-config-client</artifactId>
+  <name>spring-cloud-config-client</name>
   <url>http://maven.apache.org</url>
-  
   <properties>
     <project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
   </properties>
-  
   <dependencies>
 	<dependency>
 		<groupId>org.springframework.boot</groupId>
@@ -23,11 +20,11 @@
 	</dependency>
 	<dependency>
 		<groupId>org.springframework.cloud</groupId>
-		<artifactId>spring-cloud-config-server</artifactId>
+		<artifactId>spring-cloud-starter-config</artifactId>
 	</dependency>
-	<dependency>
+	<!-- <dependency>
 		<groupId>org.springframework.cloud</groupId>
 		<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
-	</dependency>
+	</dependency> -->
 </dependencies>
 </project>
