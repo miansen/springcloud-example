@@ -1,15 +1,13 @@
 package org.spring.cloud.consumer;
 
+import org.spring.cloud.consumer.config.MyRule;
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.cloud.netflix.eureka.EnableEurekaClient;
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.PathVariable;
-import org.springframework.web.bind.annotation.RestController;
-import org.springframework.web.client.RestTemplate;
+import org.springframework.cloud.netflix.ribbon.RibbonClient;
 
+@RibbonClient(name = "spring-cloud-provider", configuration = MyRule.class)
 @EnableEurekaClient
-@RestController
 @SpringBootApplication
 public class ConsumerApplication {
 
@@ -17,9 +15,4 @@ public class ConsumerApplication {
 		SpringApplication.run(ConsumerApplication.class, args);
 	}
 	
-	@GetMapping("/users/{name}")
-	public String getUser(@PathVariable("name") String name) {
-		return new RestTemplate().getForObject("http://spring-cloud-provider/users/" + name, String.class);
-	}
-
 }

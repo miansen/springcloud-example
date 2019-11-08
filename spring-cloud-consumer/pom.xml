@@ -19,10 +19,10 @@
       <groupId>org.springframework.boot</groupId>
       <artifactId>spring-boot-starter-web</artifactId>
    </dependency>
-   <!-- 引入 eureka server 依赖-->
+   <!-- 引入 eureka client 依赖-->
 	<dependency>
    		<groupId>org.springframework.cloud</groupId>
-   		<artifactId>spring-cloud-starter-netflix-eureka-server</artifactId>
+   		<artifactId>spring-cloud-starter-netflix-eureka-client</artifactId>
 	</dependency>
   </dependencies>
 </project>
