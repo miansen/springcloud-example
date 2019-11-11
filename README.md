@@ -2,9 +2,11 @@
 
 [一、SpringCloud-服务提供者与服务消费者](https://miansen.wang/2019/09/20/spring-cloud-provider-consumer)
 
-[二、SpringCloud-服务的注册与发现 Eureka](https://miansen.wang/2019/09/24/spring-cloud-eureka-server)
+[二、Spring Cloud-服务注册中心 Eureka](https://miansen.wang/2019/09/24/spring-cloud-eureka)
 
-[三、SpringCloud-服务消费者（RestTemplate+Ribbon 与 Feign）](https://miansen.wang/2019/09/25/spring-cloud-consumer-restTemplate-ribbon-feign)
+[三、Spring Cloud-负载均衡 Ribbon）](https://miansen.wang/2019/09/25/spring-cloud-ribbon)
+
+[四、Spring Cloud-接口调用 Feign](https://miansen.wang/2019/09/26/spring-cloud-feign)
 
 [四、SpringCloud-高可用的服务注册中心](https://miansen.wang/2019/09/27/spring-cloud-eureka-server-hign)
 

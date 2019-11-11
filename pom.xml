@@ -57,5 +57,6 @@
     <module>spring-cloud-zuul-server</module>
     <module>spring-cloud-config-server</module>
     <module>spring-cloud-config-client</module>
+    <module>spring-cloud-feign-api</module>
   </modules>
 </project>

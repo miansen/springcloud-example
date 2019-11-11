@@ -16,4 +16,9 @@ public class UserController {
 	public String getUser(@PathVariable("name") String name) {
 		return userFeignClient.getUser(name);
 	}
+	
+	@GetMapping("/api/users/{name}")
+	public String getApiUser(@PathVariable("name") String name) {
+		return userFeignClient.getUserApi(name);
+	}
 }
