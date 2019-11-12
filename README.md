@@ -4,7 +4,7 @@
 
 [二、Spring Cloud-服务注册中心 Eureka](https://miansen.wang/2019/09/24/spring-cloud-eureka)
 
-[三、Spring Cloud-负载均衡 Ribbon）](https://miansen.wang/2019/09/25/spring-cloud-ribbon)
+[三、Spring Cloud-负载均衡 Ribbon](https://miansen.wang/2019/09/25/spring-cloud-ribbon)
 
 [四、Spring Cloud-接口调用 Feign](https://miansen.wang/2019/09/26/spring-cloud-feign)
 
@@ -13,5 +13,7 @@
 [五、SpringCloud-服务容错 Hystrix（断路器）](https://miansen.wang/2019/09/30/spring-cloud-hystrix)
 
 [六、SpringCloud-路由器和过滤器 Zuul](https://miansen.wang/2019/10/12/spring-cloud-zuul)
+
+[七、Spring Cloud-网关 Spring-Cloud-Gateway](https://miansen.wang/2019/10/21/spring-cloud-gateway)
 
 [七、SpringCloud-服务配置中心 Spring-Cloud-Config](https://miansen.wang/2019/10/22/spring-cloud-config)

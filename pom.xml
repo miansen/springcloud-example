@@ -58,5 +58,6 @@
     <module>spring-cloud-config-server</module>
     <module>spring-cloud-config-client</module>
     <module>spring-cloud-feign-api</module>
+    <module>spring-cloud-gateway</module>
   </modules>
 </project>
