@@ -22,7 +22,9 @@ public class GatewayApplication {
 	public RouteLocator myRoutes(RouteLocatorBuilder builder) {
 		return builder.routes()
 				.route(
-						p -> p.path("/users/zhangsan").uri("https://www.baidu.com")
+						p -> p.path("/get")
+						     .filters(f -> f.addRequestHeader("X-Request-Foo", "Bar").addResponseHeader("X-Response-Foo", "Bar"))
+						     .uri("http://httpbin.org")
 						)
 				.build();
 	}
