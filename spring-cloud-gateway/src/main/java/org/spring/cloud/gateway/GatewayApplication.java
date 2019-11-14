@@ -18,7 +18,7 @@ public class GatewayApplication {
 	 * @param builder
 	 * @return
 	 */
-	@Bean
+	/*@Bean
 	public RouteLocator myRoutes(RouteLocatorBuilder builder) {
 		return builder.routes()
 				.route(
@@ -27,5 +27,5 @@ public class GatewayApplication {
 						     .uri("http://httpbin.org")
 						)
 				.build();
-	}
+	}*/
 }
